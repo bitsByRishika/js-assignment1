@@ -1,0 +1,24 @@
+img{
+    border: solid black 4px;
+    width: 100%;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    align-items: center;
+    gap: 10px;
+}
+div{
+    height: 350px;
+    width: 300px;
+    background-color: black;
+    border: solid aquamarine 4px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position: center;
+}
